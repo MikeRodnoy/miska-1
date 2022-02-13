@@ -1,0 +1,183 @@
+/* ЦВЕТ ТЕКСТА
+ Часть лого цвет #2196F3 
+ Вторая часть лого цвет #000000  
+Заголовки и навигация цвет #212121 
+ Основной цвет #757575
+ Блок герой и часть адресса #ffffff
+*/
+:root {
+  --primery-text-color: #757575;
+  --tittle-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --backround-color: #e2e2e2;
+  --black-color: #000000;
+}
+body {
+  background-color: #e2e2e2;
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+  list-style: none;
+}
+
+.main-nav > ul > li > .link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--tittle-text-color);
+}
+.main-nav .link:hover,
+.main-nav .link:focus {
+  color: var(--accent-color);
+}
+.main-nav .main-ul,
+.adrs-nav,
+.works-ul,
+.workers-ul,
+.text-ul,
+.btn-ul,
+.prtfl-ul {
+  list-style: none;
+}
+
+.logo {
+  color: var(--accent-color);
+}
+.logo.main {
+  color: var(--black-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.logo.ftr {
+  color: var(--white-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.adrs-nav .link {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.adrs-nav .link:hover,
+.adrs-nav .link:focus {
+  color: var(--accent-color);
+}
+.hero-text {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-btn {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.text-ul .text-h {
+  color: var(--tittle-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.text-ul .text-p {
+  line-height: 1.71;
+}
+.works-h {
+  color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.workers-main {
+  color: var(--tittle-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.workers-ul .workers-h {
+  color: var(--tittle-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+.workers-ul .workers-p {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+.address .link {
+  text-decoration: none;
+  color: var(--white-color);
+  line-height: 1.71;
+}
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
+.address .address-cnt {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  text-decoration: none;
+}
+.address .address-cnt:hover,
+.address .address-cnt:focus {
+  color: var(--accent-color);
+}
+/* Портфолио */
+.prtfl-ul .link {
+  text-decoration: none;
+}
+.btn-ul .prtfl-btn {
+  font-family: Roboto, sans-serif;
+  color: var(--tittle-text-color);
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.btn-ul .prtfl-btn:hover,
+.btn-ul .prtfl-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.prtfl-ul .prtfl-h {
+  color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.prtfl-ul .prtfl-p {
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
+.hero-btn,
+.btn-ul .prtfl-btn {
+  cursor: pointer;
+}
