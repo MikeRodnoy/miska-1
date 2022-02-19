@@ -6,138 +6,145 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-    <!-- Это шапка с навигацией -->
-    <header>
+    <body>
+<header class="header">
+    <div class="container header">
         <a class="logo main" href="index.html">
-            <b class="logo">Web</b>Studio
-        </a>
+            <b class="logo">Web</b>Studio</a>
         <nav class="main-nav">
-    
+
             <ul class="main-ul">
-    
-                <li class="main-ul__item">
-                    <a class="link" href="index.html">Студия</a>
+                <li class="item">
+                    <a class="link" href="index.html">Студия </a>
                 </li>
-                <li class="main-ul__item">
+                <li class="item">
                     <a class="link" href="portfolio.html">Портфолио</a>
                 </li>
-                <li class="main-ul__item">
+                <li class="item">
                     <a class="link" href="#">Контакты</a>
                 </li>
-    
+
             </ul>
         </nav>
         <ul class="adrs-nav">
-            <li>
+            <li class="item">
                 <a class="link" href="">info@devstudio.com</a>
             </li>
-            <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-    
-    </header>
+    </div>
+
+</header>
+<div class="line-under-header"></div>
+
     <main>
-      <section>
-        <h1 class="prtfl">Примеры работ</h1>
-        <ul class="btn-ul">
-<li>
-    <button class="prtfl-btn" type="button">Все</button>
-</li>
-<li>
-    <button class="prtfl-btn" type="button">Веб-сайты</button>
-</li>
-<li>
-    <button class="prtfl-btn" type="button">Приложения</button>
-</li>
-<li>
-    <button class="prtfl-btn" type="button">Дизайн</button>
-</li>
-<li>
-    <button class="prtfl-btn" type="button">Маркетинг</button>
-</li>            
-        </ul>
-<ul class="prtfl-ul">
-<li>
-    <a class="link" href="">
-    <img src="./images/portfolio-1.jpg" width="370" height="404"  alt="Веб-сайт">
-    <h2 class="prtfl-h">Технохряк</h2>
-    <p class="prtfl-p">Веб-сайт</p>
-</a>
-</li>
-<li>
-    <a class="link" href="">
-    <img src="./images/portfolio-2.jpg" width="370" height="404" alt="Дизайн постера">
-    <h2 class="prtfl-h">Постер New Orlean vs Golden Star</h2>
-    <p class="prtfl-p">Дизайн</p>
-</a>
-</li>
-<li>
-    <a class="link" href="">
-    <img src="./images/portfolio-3.jpg" width="370" height="404" alt="Приложение">
-    <h2 class="prtfl-h">Ресторан Seafood</h2>
-    <p class="prtfl-p">Приложение</p>
-</a>
-</li>
-<li>
-    <a class="link" href="">
-    <img src="./images/portfolio-4.jpg" width="370" height="404" alt="Маркетинг проэкта">
-    <h2 class="prtfl-h">Проект Prime</h2>
-    <p class="prtfl-p">Маркетинг</p>
-</a>
-</li>
-<li>
-    <a class="link" href="">
-    <img src="./images/portfolio-5.jpg" width="370" height="404" alt="Приложение">
-    <h2 class="prtfl-h">Проект Boxes</h2>
-    <p class="prtfl-p">Приложение</p>
-</a>
-</li>
-<li>
-    <a class="link" href="">
-    <img src="./images/portfolio-6.jpg" width="370" height="404" alt="Веб-сайт">
-    <h2 class="prtfl-h">Проект Boxes</h2>
-    <p class="prtfl-p">Веб-сайт</p>
-</a>
-</li>
-<li>
-    <a class="link" href="">
-    <img src="./images/portfolio-7.jpg" width="370" height="404" alt="Дизайн книги">
-    <h2 class="prtfl-h">Издание Limited Edition</h2>
-    <p class="prtfl-p">Дизайн</p>
-</a>
-</li>    
-<li>
-    <a class="link" href="">
-    <img src="./images/portfolio-8.jpg" width="370" height="404" alt="Маркетинг проэкта">
-    <h2 class="prtfl-h">Проект LAB</h2>
-    <p class="prtfl-p">Маркетинг</p>
-</a>
-</li>    
-<li>
-    <a class="link" href="">
-    <img src="./images/portfolio-9.jpg" width="370" height="404" alt="Приложение">
-    <h2 class="prtfl-h">Growing Business</h2>
-    <p class="prtfl-p">Приложение</p>
-</a>
-</li>
-</ul>
+      <section class="section portfolio">
+       <div class="container">
+            <h1 class="prtfl">Примеры работ</h1>
+            <ul class="btn-ul">
+                <li class="item">
+                    <button class="prtfl-btn" type="button">Все</button>
+                </li>
+                <li class="item">
+                    <button class="prtfl-btn" type="button">Веб-сайты</button>
+                </li>
+                <li class="item">
+                    <button class="prtfl-btn" type="button">Приложения</button>
+                </li>
+                <li class="item">
+                    <button class="prtfl-btn" type="button">Дизайн</button>
+                </li>
+                <li class="item">
+                    <button class="prtfl-btn" type="button">Маркетинг</button>
+                </li>
+            </ul>
+            <ul class="prtfl-ul">
+                <li class="item">
+                    <a class="link" href="">
+                        <img src="./images/portfolio-1.jpg" width="370" alt="Веб-сайт">
+                        <h2 class="prtfl-h">Технохряк</h2>
+                        <p class="prtfl-p">Веб-сайт</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="">
+                        <img src="./images/portfolio-2.jpg" width="370" alt="Дизайн постера">
+                        <h2 class="prtfl-h">Постер New Orlean vs Golden Star</h2>
+                        <p class="prtfl-p">Дизайн</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="">
+                        <img src="./images/portfolio-3.jpg" width="370" alt="Приложение">
+                        <h2 class="prtfl-h">Ресторан Seafood</h2>
+                        <p class="prtfl-p">Приложение</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="">
+                        <img src="./images/portfolio-4.jpg" width="370" alt="Маркетинг проэкта">
+                        <h2 class="prtfl-h">Проект Prime</h2>
+                        <p class="prtfl-p">Маркетинг</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="">
+                        <img src="./images/portfolio-5.jpg" width="370" alt="Приложение">
+                        <h2 class="prtfl-h">Проект Boxes</h2>
+                        <p class="prtfl-p">Приложение</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="">
+                        <img src="./images/portfolio-6.jpg" width="370" alt="Веб-сайт">
+                        <h2 class="prtfl-h">Проект Boxes</h2>
+                        <p class="prtfl-p">Веб-сайт</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="">
+                        <img src="./images/portfolio-7.jpg" width="370" alt="Дизайн книги">
+                        <h2 class="prtfl-h">Издание Limited Edition</h2>
+                        <p class="prtfl-p">Дизайн</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="">
+                        <img src="./images/portfolio-8.jpg" width="370" alt="Маркетинг проэкта">
+                        <h2 class="prtfl-h">Проект LAB</h2>
+                        <p class="prtfl-p">Маркетинг</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a class="link" href="">
+                        <img src="./images/portfolio-9.jpg" width="370" alt="Приложение">
+                        <h2 class="prtfl-h">Growing Business</h2>
+                        <p class="prtfl-p">Приложение</p>
+                    </a>
+                </li>
+            </ul>
+       </div>
 </section>
     </main>
-    <footer>
-        <a class="logo ftr" href="index.html"><b class="logo">Web</b>Studio
-        </a>
-        <address class="address">
-            <a class="link" href="">г. Киев, пр-т Леси Украинки, 26</a>
-            <a class="address-cnt" href="info@example.com">info@example.com
-            </a>
-            <a class="address-cnt" href="tel:+380991111111">+38 099 111 11 11
-            </a>
-        </address>
-    </footer>
+        <footer>
+            <div class="container address">
+                <a class="logo ftr" href="index.html"><b class="logo">Web</b>Studio
+                </a>
+                <address class="address">
+                    <a class="link" href="">г. Киев, пр-т Леси Украинки, 26
+                    </a>
+                    <a class="address-cnt" href="info@example.com">info@example.com
+                    </a>
+                    <a class="address-cnt" href="tel:+380991111111">+38 099 111 11 11
+                    </a>
+                </address>
+            </div>
+        </footer>
+
     </body>
     
     </html>
